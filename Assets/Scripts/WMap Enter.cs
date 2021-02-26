@@ -10,7 +10,7 @@ public class WMapEnter : MonoBehaviour
         
     }
 
-    public void OnTriggerEnter2D(Collider2D )
+    public void OnTriggerEnter2D(Collider2D other)
     {
         GameObject gameUI = GameObject.Find("GameUI");
         gameUI.SendMessage("addPoint", SendMessageOptions.DontRequireReceiver);
