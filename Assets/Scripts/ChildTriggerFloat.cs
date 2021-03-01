@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChildTrigger : MonoBehaviour
+public class ChildTriggerBool: MonoBehaviour
 {
     public string targetTag;
 
     [Header("Enter")]
     public string enterMessage;
-    public float enterValue;
+    public bool enterValue;
 
     [Header("Exit")]
     public string exitMessage;
-    public float exitValue;
+    public bool exitValue;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
