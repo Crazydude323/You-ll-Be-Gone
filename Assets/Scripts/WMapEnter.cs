@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WMapEnter : MonoBehaviour
 {
@@ -12,11 +13,7 @@ public class WMapEnter : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        GameObject gameUI = GameObject.Find("GameUI");
-        gameUI.SendMessage("addPoint", SendMessageOptions.DontRequireReceiver);
-
-        Destroy(this.gameObject);
-        Destroy(other.gameObject);
+        SceneManager.LoadScene("WMap");
     }
 
     // Update is called once per frame
