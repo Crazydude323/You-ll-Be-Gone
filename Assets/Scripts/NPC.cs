@@ -11,12 +11,15 @@ public class NPC : MonoBehaviour
     Transform prompt;
     SpriteRenderer sr;
     SpriteRenderer promptSr;
+    Animator animator;
 
     private void Start()
     {
         prompt = this.gameObject.transform.Find("TextBubblePrompt");
         sr = this.GetComponent<SpriteRenderer>();
         promptSr = prompt.gameObject.GetComponent<SpriteRenderer>();
+        if(this.GetComponent<Animator>() != null)
+        animator = this.GetComponent<Animator>();
     }
 
     private void Update()
@@ -38,6 +41,8 @@ public class NPC : MonoBehaviour
     public void SetIsClose(bool boolean)
     {
         isClose = boolean;
+        if(animator != null)
+        animator.SetBool("isClose", isClose);
         prompt.gameObject.SetActive(isClose);
     }
 }

@@ -7,7 +7,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Variables")]
     public float speed=1f;
     private Vector2 movement;
-    private bool isInputLocked = false;
+    public Vector2 defaultDirection;
+    public bool inputIsLocked = true;
 
     [Header("Components")]
     private Rigidbody2D r2d;
@@ -18,12 +19,13 @@ public class PlayerMovement : MonoBehaviour
     {
         r2d = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
+        if (inputIsLocked) movement = defaultDirection;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isInputLocked) ReceiveInput();
+        if (!inputIsLocked) ReceiveInput();
     }
 
     private void ReceiveInput()
@@ -55,11 +57,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void LockInput(Vector2 lockDirection)
     {
-        isInputLocked = true;
+        inputIsLocked = true;
         movement = lockDirection;
     }
-    public void UnlockInput(Vector2 direction)
+    public void UnlockInput()
     {
-        isInputLocked = false;
+        inputIsLocked = false;
     }
 }

@@ -16,7 +16,7 @@ public class ChildTriggerBool: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == targetTag)
+        if (collision.gameObject.CompareTag(targetTag))
         {
             SendMessageUpwards(enterMessage, enterValue, SendMessageOptions.DontRequireReceiver);
         }
@@ -24,7 +24,7 @@ public class ChildTriggerBool: MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == targetTag)
+        if (collision.gameObject.CompareTag(targetTag))
         {
             SendMessageUpwards(exitMessage, exitValue, SendMessageOptions.DontRequireReceiver);
         }

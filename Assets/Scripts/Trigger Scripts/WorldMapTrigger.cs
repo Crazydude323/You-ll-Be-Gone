@@ -15,10 +15,13 @@ public class WorldMapTrigger : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         // detect if collider is Player
-        if(other.tag == "Player")
+        if(other.CompareTag("Player"))
         {
-            transitionManager.FadeToScene("WorldMap");
-            other.GetComponent<PlayerMovement>().LockInput(direction);
+            if (!other.GetComponent<PlayerMovement>().inputIsLocked)
+            {
+                transitionManager.FadeToScene("WorldMap");
+                other.GetComponent<PlayerMovement>().LockInput(direction);
+            }
         }
     }
 }
