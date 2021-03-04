@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement")]
+    [Header("Variables")]
     public float speed=1f;
     private Vector2 movement;
+    private bool isInputLocked = false;
 
     [Header("Components")]
     private Rigidbody2D r2d;
@@ -22,6 +23,11 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isInputLocked) ReceiveInput();
+    }
+
+    private void ReceiveInput()
+    {
         float vertical = Input.GetAxis("Vertical");
         float horizontal = Input.GetAxis("Horizontal");
         movement = new Vector2(horizontal, vertical);
@@ -30,7 +36,6 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         //move sprite
         r2d.velocity = movement * speed;
 
@@ -46,5 +51,15 @@ public class Player : MonoBehaviour
 
         //update animator
         animator.SetFloat("speed", Mathf.Abs(movement.magnitude));
+    }
+
+    public void LockInput(Vector2 lockDirection)
+    {
+        isInputLocked = true;
+        movement = lockDirection;
+    }
+    public void UnlockInput(Vector2 direction)
+    {
+        isInputLocked = false;
     }
 }
