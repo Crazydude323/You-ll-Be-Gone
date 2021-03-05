@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChildTrigger : MonoBehaviour
+public class ChildTriggerFloat : MonoBehaviour
 {
     public string targetTag;
 
@@ -16,7 +16,7 @@ public class ChildTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == targetTag)
+        if (collision.gameObject.CompareTag(targetTag))
         {
             SendMessageUpwards(enterMessage, enterValue, SendMessageOptions.DontRequireReceiver);
         }
@@ -24,7 +24,7 @@ public class ChildTrigger : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == targetTag)
+        if (collision.gameObject.CompareTag(targetTag))
         {
             SendMessageUpwards(exitMessage, exitValue, SendMessageOptions.DontRequireReceiver);
         }
