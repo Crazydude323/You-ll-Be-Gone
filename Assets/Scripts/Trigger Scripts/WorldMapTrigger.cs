@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WorldMapTrigger : MonoBehaviour
 {
-    public Vector2 direction;
+    public Vector2 exitDirection;
     private TransitionManager transitionManager;
 
     private void Start()
@@ -20,7 +20,7 @@ public class WorldMapTrigger : MonoBehaviour
             if (!other.GetComponent<PlayerMovement>().inputIsLocked)
             {
                 transitionManager.FadeToScene("WorldMap");
-                other.GetComponent<PlayerMovement>().LockInput(direction);
+                other.GetComponent<PlayerMovement>().LockInput(exitDirection);
             }
         }
     }
