@@ -43,6 +43,11 @@ public class NPC : MonoBehaviour
         isClose = boolean;
         if(animator != null)
         animator.SetBool("isClose", isClose);
-        prompt.gameObject.SetActive(isClose);
+    }
+
+    public void SetPromptActive(int boolean)
+    {
+        bool isActive = (boolean == 1);
+        prompt.gameObject.SetActive(isActive);
     }
 }
