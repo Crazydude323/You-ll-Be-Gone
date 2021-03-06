@@ -38,30 +38,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2226364469270064095, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270064095, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -7474231967098600636, guid: 34ae36267002b7747a5716581ba218a4,
         type: 3}
-    - target: {fileID: 2226364469270066208, guid: ebe7c6162f785b04b93287462c99d583,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.41082996
-      objectReference: {fileID: 0}
-    - target: {fileID: 2226364469270066208, guid: ebe7c6162f785b04b93287462c99d583,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.19212696
-      objectReference: {fileID: 0}
-    - target: {fileID: 2226364469270066208, guid: ebe7c6162f785b04b93287462c99d583,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2226364469270066208, guid: ebe7c6162f785b04b93287462c99d583,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.46042672
-      objectReference: {fileID: 0}
     - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}
       propertyPath: m_RootOrder
@@ -70,12 +55,12 @@ PrefabInstance:
     - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.484
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}
@@ -120,22 +105,12 @@ PrefabInstance:
     - target: {fileID: 2226364469270066212, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}
       propertyPath: m_Name
-      value: NPC_Jeremiah
-      objectReference: {fileID: 0}
-    - target: {fileID: 3733323001350418008, guid: ebe7c6162f785b04b93287462c99d583,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.048
+      value: NPC_Jeremiah Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3733323001350418008, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61
-      objectReference: {fileID: 0}
-    - target: {fileID: 8707220997652452866, guid: ebe7c6162f785b04b93287462c99d583,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      value: 1.018
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebe7c6162f785b04b93287462c99d583, type: 3}

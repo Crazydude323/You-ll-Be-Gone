@@ -44,11 +44,11 @@ public class PlayerMovement : MonoBehaviour
         //flip player based on movement direction
         if (movement.x < 0)
         {
-            this.gameObject.transform.localScale = new Vector3(1, 1, 1);
+            this.gameObject.transform.localScale = new Vector3(-1, 1, 1);
         }
         else if (movement.x > 0)
         {
-            this.gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            this.gameObject.transform.localScale = new Vector3(1, 1, 1);
         }
 
         //update animator
