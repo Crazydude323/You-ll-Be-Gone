@@ -13,6 +13,13 @@ public class NPC : MonoBehaviour
     SpriteRenderer promptSr;
     Animator animator;
 
+    public string characterName = "";
+
+    public string talkToNode = "";
+
+    [Header("Optional")]
+    public YarnProgram scriptToLoad;
+
     private void Start()
     {
         prompt = this.gameObject.transform.Find("TextBubblePrompt");
@@ -20,6 +27,8 @@ public class NPC : MonoBehaviour
         promptSr = prompt.gameObject.GetComponent<SpriteRenderer>();
         if(this.GetComponent<Animator>() != null)
         animator = this.GetComponent<Animator>();
+
+        
     }
 
     private void Update()
