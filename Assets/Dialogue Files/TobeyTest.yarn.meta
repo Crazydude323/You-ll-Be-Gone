@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 76799c01a5649364d9c70775abb4f684
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - TobeyTest-Start-0
+  - TobeyTest-Start-1
+  - TobeyTest-Start-2
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 76799c01a5649364d9c70775abb4f684,
+    type: 3}
+  localizations: []

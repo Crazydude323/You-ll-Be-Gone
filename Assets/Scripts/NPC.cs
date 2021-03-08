@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class NPC : MonoBehaviour
 {
@@ -8,10 +9,18 @@ public class NPC : MonoBehaviour
     private bool isClose = false;
 
     [Header("Components")]
+    public DialogueManager dialogueManager;
     Transform prompt;
     SpriteRenderer sr;
     SpriteRenderer promptSr;
     Animator animator;
+
+    public string characterName = "";
+
+    public string talkToNode = "";
+
+    [Header("Optional")]
+    public YarnProgram scriptToLoad;
 
     private void Start()
     {
@@ -20,6 +29,8 @@ public class NPC : MonoBehaviour
         promptSr = prompt.gameObject.GetComponent<SpriteRenderer>();
         if(this.GetComponent<Animator>() != null)
         animator = this.GetComponent<Animator>();
+
+        dialogueManager.dialogueRunner.Add(scriptToLoad);
     }
 
     private void Update()
@@ -28,6 +39,8 @@ public class NPC : MonoBehaviour
         {
             Debug.Log("Starting Dialogue with " + this.gameObject.name);
             //START DIALOGUE
+            dialogueManager.SetCanvasActive(true);
+            dialogueManager.dialogueRunner.StartDialogue(talkToNode);
         }
     }
 
