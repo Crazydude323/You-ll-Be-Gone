@@ -16,24 +16,16 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D r2d;
     private Animator animator;
 
-    [Header("Dialogue")]
-    [SerializeField] SpeakerData speakerData;
-    DialogueManager dialogueManager;
-
     // Start is called before the first frame update
     private void Awake()
     {
         r2d = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
-
-        dialogueManager = GameObject.FindGameObjectWithTag("DialogueManager").GetComponent<DialogueManager>();
     }
 
     void Start()
     {
         if (inputIsLocked) movement = defaultDirection;
-
-        dialogueManager.AddSpeaker(speakerData);
     }
 
     // Update is called once per frame

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Music
   - DialogueManager
+  - TransitionManager
   layers:
   - Default
   - TransparentFX

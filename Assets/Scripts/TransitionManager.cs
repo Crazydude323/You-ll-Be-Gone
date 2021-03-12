@@ -16,7 +16,8 @@ public class TransitionManager : MonoBehaviour
     private void Awake()
     {
         animator = this.gameObject.GetComponent<Animator>();
-        playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+        if(GameObject.FindGameObjectWithTag("Player"))
+            playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
     }
 
     private void Start()

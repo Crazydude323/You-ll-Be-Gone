@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -86,6 +87,7 @@ GameObject:
   - component: {fileID: 4669613808862902720}
   - component: {fileID: 4669613808862902723}
   - component: {fileID: 4669613808862902722}
+  - component: {fileID: 545995190429182003}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -156,6 +158,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &4669613808862902722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,6 +176,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!225 &545995190429182003
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669613808862902732}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &4669613809646150431
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +201,7 @@ GameObject:
   - component: {fileID: 4669613809646150418}
   m_Layer: 0
   m_Name: TransitionManager
-  m_TagString: Untagged
+  m_TagString: TransitionManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,3 +252,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18b6ea2fc906efd49a7b7723b42ff3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeInOnStart: 1
