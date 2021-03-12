@@ -5,16 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class TransitionManager : MonoBehaviour
 {
+    [Header("Components")]
     private Animator animator;
     private PlayerMovement playerMovement;
 
+    [Header("Variables")]
+    public bool fadeInOnStart = true;
     private string sceneToLoad;
+
+    private void Awake()
+    {
+        animator = this.gameObject.GetComponent<Animator>();
+        playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+    }
 
     private void Start()
     {
-        DontDestroyOnLoad(transform.gameObject);
-        animator = this.gameObject.GetComponent<Animator>();
-        playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+        if (fadeInOnStart) animator.SetTrigger("FadeIn");
     }
 
     // fade to black

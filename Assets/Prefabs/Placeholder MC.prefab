@@ -146,8 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  defaultDirection: {x: 0.75, y: 0}
-  inputIsLocked: 1
+  defaultDirection: {x: 0, y: 0}
+  inputIsLocked: 0
 --- !u!95 &6918072242734071756
 Animator:
   serializedVersion: 3

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cb1087ebac4194040a70de49480a6ed4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Tobey (5)-Robo-0
+  - Tobey (5)-Robo-1
+  - Tobey (5)-Robo-2
+  - Tobey (5)-Robo-3
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: cb1087ebac4194040a70de49480a6ed4,
+    type: 3}
+  localizations: []

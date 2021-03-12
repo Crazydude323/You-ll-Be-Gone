@@ -1499,6 +1499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransitionManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4669613809646150431, guid: 279138d1429eb9147bae845bd3603ec3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 279138d1429eb9147bae845bd3603ec3, type: 3}
 --- !u!1 &629259155
@@ -1638,6 +1643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Tobey Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6991260787295333998, guid: f7898f886b6e83449a2415b853e27238,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7898f886b6e83449a2415b853e27238, type: 3}
 --- !u!1 &743521229
@@ -1766,6 +1776,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC_Jeremiah Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043363233921788000, guid: 6c03d44e4c3c8f34d875a51e12410f73,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1043363233921788007, guid: 6c03d44e4c3c8f34d875a51e12410f73,
         type: 3}
@@ -2047,6 +2062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066212, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3281927406798501345, guid: ebe7c6162f785b04b93287462c99d583,
         type: 3}

@@ -4,28 +4,44 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public bool InputIsLocked { get { return inputIsLocked; } }
+
     [Header("Variables")]
-    public float speed=1f;
+    [SerializeField] float speed=1f;
+    [SerializeField] Vector2 defaultDirection;
+    [SerializeField] bool inputIsLocked = true;
     private Vector2 movement;
-    public Vector2 defaultDirection;
-    public bool inputIsLocked = true;
 
     [Header("Components")]
     private Rigidbody2D r2d;
     private Animator animator;
 
+    [Header("Dialogue")]
+    [SerializeField] SpeakerData speakerData;
+    DialogueManager dialogueManager;
+
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         r2d = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
+
+        dialogueManager = GameObject.FindGameObjectWithTag("DialogueManager").GetComponent<DialogueManager>();
+    }
+
+    void Start()
+    {
         if (inputIsLocked) movement = defaultDirection;
+
+        dialogueManager.AddSpeaker(speakerData);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!inputIsLocked) ReceiveInput();
+        if (inputIsLocked) return;
+
+        ReceiveInput();
     }
 
     private void ReceiveInput()
@@ -60,6 +76,13 @@ public class PlayerMovement : MonoBehaviour
         inputIsLocked = true;
         movement = lockDirection;
     }
+
+    public void LockInput()
+    {
+        inputIsLocked = true;
+        movement = new Vector2();
+    }
+
     public void UnlockInput()
     {
         inputIsLocked = false;

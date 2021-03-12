@@ -7,7 +7,7 @@ public class WorldMapTrigger : MonoBehaviour
     public Vector2 exitDirection;
     private TransitionManager transitionManager;
 
-    private void Start()
+    private void Awake()
     {
         transitionManager = GameObject.Find("TransitionManager").GetComponent<TransitionManager>();
     }
@@ -17,7 +17,7 @@ public class WorldMapTrigger : MonoBehaviour
         // detect if collider is Player
         if(other.CompareTag("Player"))
         {
-            if (!other.GetComponent<PlayerMovement>().inputIsLocked)
+            if (!other.GetComponent<PlayerMovement>().InputIsLocked)
             {
                 transitionManager.FadeToScene("WorldMap");
                 other.GetComponent<PlayerMovement>().LockInput(exitDirection);
