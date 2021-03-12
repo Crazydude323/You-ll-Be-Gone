@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: fa40562dc3c9ee74c8c00d8640a2baab
+guid: 4a89d16ebf8c48f4384a1f191e8014c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8992007787569606653
-    second: ItemsTest_0
+      213: 1816219702311660663
+    second: PlaceHolderBartender_0
   - first:
-      213: -1135244058076227553
-    second: ItemsTest_1
+      213: 8424592195004467634
+    second: PlaceHolderBartender_1
   - first:
-      213: 1297159909273136324
-    second: ItemsTest_2
+      213: 5949711332230930916
+    second: PlaceHolderBartender_2
   - first:
-      213: 1782186445891640955
-    second: ItemsTest_3
+      213: -3150550635793620698
+    second: PlaceHolderBartender_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,6 +100,42 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -115,85 +151,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ItemsTest_0
+      name: PlaceHolderBartender_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 143
-        height: 54
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3001e541f88f53380800000000000000
-      internalID: -8992007787569606653
+      spriteID: 77c2a5e4232843910800000000000000
+      internalID: 1816219702311660663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ItemsTest_1
+      name: PlaceHolderBartender_1
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1
-        width: 50
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f185ef04b8dce30f0800000000000000
-      internalID: -1135244058076227553
+      spriteID: 2b905c847f92ae470800000000000000
+      internalID: 8424592195004467634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ItemsTest_2
+      name: PlaceHolderBartender_2
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1
-        width: 124
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cc6a199010700210800000000000000
-      internalID: 1297159909273136324
+      spriteID: 4e1adb90fee919250800000000000000
+      internalID: 5949711332230930916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ItemsTest_3
+      name: PlaceHolderBartender_3
       rect:
         serializedVersion: 2
-        x: 326
-        y: 6
-        width: 24
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5, y: 0.78}
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e13ee41299bb810800000000000000
-      internalID: 1782186445891640955
+      spriteID: 621e3aa93eef644d0800000000000000
+      internalID: -3150550635793620698
       vertices: []
       indices: 
       edges: []

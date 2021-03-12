@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2864349221009914564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2226364469270064095, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1816219702311660663, guid: 4a89d16ebf8c48f4384a1f191e8014c4,
+        type: 3}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.287
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.497
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066211, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226364469270066212, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC_Bartender
+      objectReference: {fileID: 0}
+    - target: {fileID: 5877549923115168388, guid: ebe7c6162f785b04b93287462c99d583,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cae176d4073684a4c95b487b64cc0402, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ebe7c6162f785b04b93287462c99d583, type: 3}
