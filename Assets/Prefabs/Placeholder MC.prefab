@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6918072242734071757}
   - component: {fileID: 6918072242734071745}
   - component: {fileID: 6918072242734071744}
-  - component: {fileID: 6918072242734071747}
   - component: {fileID: 6918072242734071756}
+  - component: {fileID: 6918072242734071747}
   m_Layer: 0
   m_Name: Placeholder MC
   m_TagString: Player
@@ -50,6 +50,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -133,21 +134,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6918072242734071747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6918072242734071759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef46c31ae0006564699f27e36fd9ed87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  defaultDirection: {x: 0.75, y: 0}
-  inputIsLocked: 1
 --- !u!95 &6918072242734071756
 Animator:
   serializedVersion: 3
@@ -167,3 +153,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6918072242734071747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6918072242734071759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef46c31ae0006564699f27e36fd9ed87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  defaultDirection: {x: 0, y: 0}
+  inputIsLocked: 0
+  speakerData: {fileID: 0}

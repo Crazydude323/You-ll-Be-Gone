@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a64d7f838c7b94a833f33bd3e98d12, type: 3}
+  m_Name: Blob
+  m_EditorClassIdentifier: 
+  speakerName: Blob
+  splashNeutral: {fileID: 21300000, guid: 86e4969623a09954bbb94b672a0f34b6, type: 3}
+  splashHappy: {fileID: 21300000, guid: 7105d2ff3ab13af4c9f36575291414be, type: 3}
+  splashAngry: {fileID: 21300000, guid: 98b92fdd9ed23854bb88e53acf54ee6f, type: 3}
