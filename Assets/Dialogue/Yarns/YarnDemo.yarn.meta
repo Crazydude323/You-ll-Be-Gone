@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3fc0ba6c1ed720c40aaa798cbbb19d43
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - EmotionTest (1)-EmotionTest.Start-0
+  - EmotionTest (1)-EmotionTest.Start-1
+  - EmotionTest (1)-EmotionTest.Start-2
+  - EmotionTest (1)-EmotionTest.Start-3
+  - EmotionTest (1)-clicky-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: fe60b14f4344de04499e94c28ec7eed7,
+    type: 3}
+  localizations: []

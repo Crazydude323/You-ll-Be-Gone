@@ -28,6 +28,14 @@ public class SpeakerData : ScriptableObject
             case STATE_NEUTRAL: return splashNeutral;
             case STATE_HAPPY: return splashHappy;
             case STATE_ANGRY: return splashAngry;
+            case STATE_SAD: return splashSad;
+            case STATE_SHOCKED: return splashShocked;
+            case STATE_SMUG: return splashSmug;
+            case STATE_BASHFUL: return splashBashful;
+            case STATE_SPECIAL1: return splashSpecial1;
+            case STATE_SPECIAL2: return splashSpecial2;
+            case STATE_SPECIAL3: return splashSpecial3;
+            case STATE_SPECIAL4: return splashSpecial4;
         }
     }
 }

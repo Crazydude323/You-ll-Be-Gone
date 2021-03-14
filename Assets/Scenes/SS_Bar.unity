@@ -2484,16 +2484,26 @@ PrefabInstance:
         type: 3}
       propertyPath: yarnDialogue
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: cb1087ebac4194040a70de49480a6ed4,
+      objectReference: {fileID: 2480198943629176163, guid: 3fc0ba6c1ed720c40aaa798cbbb19d43,
         type: 3}
     - target: {fileID: 2976339377466874542, guid: 4403c67d4c279c64aad714de89ce8b13,
         type: 3}
+      propertyPath: maxNodeSuffix
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976339377466874542, guid: 4403c67d4c279c64aad714de89ce8b13,
+        type: 3}
       propertyPath: yarnStartNode
-      value: Robo
+      value: YarnDemo
       objectReference: {fileID: 0}
     - target: {fileID: 2976339377466874542, guid: 4403c67d4c279c64aad714de89ce8b13,
         type: 3}
       propertyPath: shouldLookAtPlayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976339377466874542, guid: 4403c67d4c279c64aad714de89ce8b13,
+        type: 3}
+      propertyPath: shouldIncrementNode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6206135202680204259, guid: 4403c67d4c279c64aad714de89ce8b13,
