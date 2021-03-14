@@ -1434,6 +1434,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6d0d502347cb59b4abbc4262cd68c48a, type: 3}
   - {fileID: 21300000, guid: e8b676c7bcb9d194c9a7bdd2f7422170, type: 3}
   - {fileID: 21300000, guid: ef7106594f7714042988449e7bae6024, type: 3}
+  placeholderSplash: {fileID: 21300000, guid: 52d60d2b288ebb24ead1e6eacc13fed6, type: 3}
   emotionSpeakers:
   - {fileID: 11400000, guid: 1731b27cd6185154f9143fe118e3ec81, type: 2}
   emotionColors:

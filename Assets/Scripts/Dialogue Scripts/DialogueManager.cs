@@ -26,6 +26,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Images")]
     [SerializeField] Sprite[] bubbleTypes;
     string[] bubbleNames = new string[] { "speech", "box", "thought" };
+    [SerializeField] Sprite placeholderSplash;
 
     [Header("Player Emotions")]
     [SerializeField] SpeakerData[] emotionSpeakers;
@@ -114,7 +115,9 @@ public class DialogueManager : MonoBehaviour
             leftCharacterSplash.SetNativeSize();
             return;
         }
-        Debug.LogErrorFormat("Could not set splash for unknown speaker {0}", name);
+
+        leftCharacterSplash.sprite = placeholderSplash;
+        leftCharacterSplash.SetNativeSize();
     }
     void SetSplashR(string[] info)
     {
@@ -127,7 +130,9 @@ public class DialogueManager : MonoBehaviour
             rightCharacterSplash.SetNativeSize();
             return;
         }
-        Debug.LogErrorFormat("Could not set splash for unknown speaker {0}", name);
+
+        rightCharacterSplash.sprite = placeholderSplash;
+        rightCharacterSplash.SetNativeSize();
     }
 
     //  <<Bubble: [bubble type]>>                   Sets the speech bubble to whichever type specified.
