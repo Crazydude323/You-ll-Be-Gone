@@ -45,7 +45,7 @@ public class NPCDialogue : MonoBehaviour
     private void Start()
     {
         chatBubble.SetActive(false);                                //hide chat bubble
-        dialogueManager.primaryDialogueRunner.Add(yarnDialogue);    //send .yarn to the Dialogue Manager
+        dialogueManager.dialogueRunner.Add(yarnDialogue);    //send .yarn to the Dialogue Manager
         dialogueManager.AddSpeaker(speakerData);                    //send this NPC's speaker data to the DM
         defaultScale = npc.transform.localScale;                    //save starting direction of NPC
     }
@@ -98,7 +98,7 @@ public class NPCDialogue : MonoBehaviour
     {
         Debug.Log("Starting Dialogue with " + this.gameObject.name, this);
         //START DIALOGUE
-        dialogueManager.BeginPrimary();
-        dialogueManager.primaryDialogueRunner.StartDialogue(yarnStartNode);
+        dialogueManager.BeginDialogue();
+        dialogueManager.dialogueRunner.StartDialogue(yarnStartNode);
     }
 }

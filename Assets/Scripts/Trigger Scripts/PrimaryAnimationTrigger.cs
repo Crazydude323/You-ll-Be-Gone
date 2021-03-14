@@ -8,6 +8,6 @@ public class PrimaryAnimationTrigger : MonoBehaviour
 
     public void OnPrimaryOut()
     {
-        dialogueManager.OnPrimaryOut();
+        dialogueManager.OnDialogueOut();
     }
 }

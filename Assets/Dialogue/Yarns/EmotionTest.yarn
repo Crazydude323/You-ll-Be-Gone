@@ -1,0 +1,25 @@
+title: EmotionTest.Start
+tags: 
+colorID: 0
+position: 1,-92
+---
+<<Speaker: R Robo>>
+<<SplashRight: Robo>>
+<<SplashLeft: Blob>>
+Ayyyy I'm a lizard, innit?
+
+<<SplashRight: Robo Happy>>
+I'm a sssneaky lil' lizard boio!
+[[ g | clicky ]]
+[[ goodbye | clicky ]]
+===
+title: clicky
+tags: 
+colorID: 0
+position: 274,-91
+---
+<<Background: Anger>>
+<<Bubble: Thought>>
+<<Speaker: L Blob>>
+lol this bloke is bloody mad
+===
