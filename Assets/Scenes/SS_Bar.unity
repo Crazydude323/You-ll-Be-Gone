@@ -2489,7 +2489,7 @@ PrefabInstance:
     - target: {fileID: 2976339377466874542, guid: 4403c67d4c279c64aad714de89ce8b13,
         type: 3}
       propertyPath: maxNodeSuffix
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2976339377466874542, guid: 4403c67d4c279c64aad714de89ce8b13,
         type: 3}

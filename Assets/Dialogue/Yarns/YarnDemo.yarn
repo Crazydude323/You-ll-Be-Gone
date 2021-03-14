@@ -3,11 +3,14 @@ tags:
 colorID: 0
 position: -262,-186
 ---
+<<Background: Sadness>>
+<<Bubble: Thought>>
 <<Speaker: L Blob>>
-<<SplashLeft: Blob Happy>>
+<<SplashLeft: Tobey Happy>>
 <<SplashRight: Robo>>
 Ayyyy wassup my mann?
 
+<<Bubble: Speech>>
 <<Speaker: R Robo>>
 <<SplashRight: Robo Angry>>
 Eww, go away!
