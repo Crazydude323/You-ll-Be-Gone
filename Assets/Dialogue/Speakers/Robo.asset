@@ -16,3 +16,11 @@ MonoBehaviour:
   splashNeutral: {fileID: 21300000, guid: 1ec5d0a1756bf5b498f341d4b2e4f1cb, type: 3}
   splashHappy: {fileID: 21300000, guid: 5e62d1c427aa753498560ec48ab1f2fd, type: 3}
   splashAngry: {fileID: 21300000, guid: a8ee7f36df3fa934ead919204b9bb7b2, type: 3}
+  splashSad: {fileID: 21300000, guid: 20e9f250576143945a764599dcab9c14, type: 3}
+  splashShocked: {fileID: 0}
+  splashSmug: {fileID: 0}
+  splashBashful: {fileID: 21300000, guid: 22d66c27253e5404e840ba7569ff85b9, type: 3}
+  splashSpecial1: {fileID: 0}
+  splashSpecial2: {fileID: 0}
+  splashSpecial3: {fileID: 0}
+  splashSpecial4: {fileID: 0}

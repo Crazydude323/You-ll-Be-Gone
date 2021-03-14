@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class NPCDialogue : MonoBehaviour
 {
@@ -8,7 +9,9 @@ public class NPCDialogue : MonoBehaviour
     [SerializeField] string yarnStartNode = "Start";
     [SerializeField] YarnProgram yarnDialogue;
     [SerializeField] SpeakerData speakerData;
+    [SerializeField] int maxNodeSuffix = 1;
     DialogueManager dialogueManager;
+    int nodeSuffix = 1;
 
     [Header("Components")]
     [SerializeField] GameObject chatBubble;
@@ -96,9 +99,9 @@ public class NPCDialogue : MonoBehaviour
     //tells Diallogue Manager to start at this NPC's node
     private void StartDialogue()
     {
-        Debug.Log("Starting Dialogue with " + this.gameObject.name, this);
         //START DIALOGUE
         dialogueManager.BeginDialogue();
-        dialogueManager.dialogueRunner.StartDialogue(yarnStartNode);
+        dialogueManager.dialogueRunner.StartDialogue(yarnStartNode + nodeSuffix);
+        if (nodeSuffix < maxNodeSuffix) nodeSuffix++;
     }
 }

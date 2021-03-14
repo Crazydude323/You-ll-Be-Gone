@@ -1,0 +1,96 @@
+title: YarnDemo1
+tags: 
+colorID: 0
+position: -262,-186
+---
+<<Speaker: L Blob>>
+<<SplashLeft: Blob Happy>>
+<<SplashRight: Robo>>
+Ayyyy wassup my mann?
+
+<<Speaker: R Robo>>
+<<SplashRight: Robo Angry>>
+Eww, go away!
+
+<<Speaker: L Blob>>
+<<SplashLeft: Blob Angry>>
+...
+
+<<stop>>
+===
+title: YarnDemo2
+tags: 
+colorID: 0
+position: 2,-190
+---
+<<Speaker: L Blob>>
+<<SplashLeft: Blob Happy>>
+<<SplashRight: Robo Angry>>
+Ayyyy wassup my mann?
+
+<<Speaker: R Robo>>
+<<SplashRight: Robo>>
+*sigh* What is it, Blob?
+
+<<Speaker: L Blob>>
+<<SplashLeft: Blob>>
+Just wanted to drop by and say hi.
+
+<<Speaker: R Robo>>
+Well, hello.
+
+<<Speaker: L Blob>>
+Might I say, your eyes look lustrous today.
+
+<<Speaker: R Robo>>
+<<SplashRight: Robo Bashful>>
+Oh! Um, uhh, uh
+
+<<Background: Embarrassment>>
+<<Speaker: L Blob>>
+<<SplashLeft: Blob>>
+Hmmmmmmm I wonder what this feeling could be...
+
+[[Anger|YarnDemo2.2]]
+[[Embarrassment|YarnDemo2.2]]
+[[Gwa Gwa|YarnDemo2.2]]
+===
+title: YarnDemo2.2
+tags: 
+colorID: 0
+position: 2,29
+---
+<<Background: Normal>>
+<<Speaker: L Blob>>
+<<SplashLeft: Blob Happy>>
+LOL, you're bloody embarrassed mate, innit?
+
+<<Speaker: R Robo>>
+<<SplashRight: Robo Angry>>
+N-no, b-baka! Sore wa chigau yo!
+
+<<stop>>
+===
+title: YarnDemo3
+tags: 
+colorID: 0
+position: 264,-191
+---
+<<Speaker: L Blob>>
+<<SplashLeft: Blob Happy>>
+<<SplashRight: Robo>>
+Ayyyy wassup my mann?
+
+<<Speaker: R Robo>>
+<<SplashRight: Robo Happy>>
+skiddly bweebop deyoh
+doogan bloppah pop pop
+
+<<Speaker: L Blob>>
+<<SplashLeft: Blob>>
+...
+<<SplashLeft: Blob Happy>>
+Correct.
+
+<<stop>>
+===
