@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: 40a60c3c28a91d34bbf2088bb0d2824a
 ScriptedImporter:
-  fileIDToRecycleName:
-    4900000: Strings
-    11400000: Program
+  internalIDToNameTable:
+  - first:
+      49: 4900000
+    second: Strings
+  - first:
+      114: 11400000
+    second: Program
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -18,5 +23,5 @@ ScriptedImporter:
   compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 4900000, guid: 40a60c3c28a91d34bbf2088bb0d2824a, type: 3}
   localizations: []
