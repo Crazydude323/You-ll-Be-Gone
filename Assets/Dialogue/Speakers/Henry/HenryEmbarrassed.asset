@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19a64d7f838c7b94a833f33bd3e98d12, type: 3}
   m_Name: HenryEmbarrassed
   m_EditorClassIdentifier: 
-  speakerName: HenryEmbarrassed
+  speakerName: HenryEmbarrassment
   splashNeutral: {fileID: 7528595178652221314, guid: 0b06344cbe7aefc419f99e72892dc246,
     type: 3}
   splashHappy: {fileID: 0}

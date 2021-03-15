@@ -11,6 +11,8 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Configuration")]
     public DialogueRunner dialogueRunner;
+    public DialogueUI dialogueUI;
+    NotificationManager notificationManager;
     Animator animator;
     PlayerMovement playerMovement;
     public bool isDialogueRunning;  //I haven't used this yet. I just thought it might be useful for something.
@@ -21,7 +23,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] Image rightCharacterSplash;
     [SerializeField] Image speechBubble;
     [SerializeField] TextMeshProUGUI txt_speakerName;
-    [SerializeField] Button buttttton;
+    [SerializeField] TextMeshProUGUI txt_speech;
+    [SerializeField] GameObject topPanel;
 
     [Header("Images")]
     [SerializeField] Sprite[] bubbleTypes;
@@ -33,21 +36,23 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] Color[] emotionColors;
     string[] emotionNames = new string[] { "emptiness", "embarrassment", "love", "anger", "courage", "surprise", "excitement", "disgust", "happiness", "envy", "confusion", "worry", "sadness", "pride", "fear" };
 
-    #region Configuration & Setup
+    #region Configuration & Setup ----------------------------------------------------------------------------------
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
-            print("f was pressed.");
-            buttttton.gameObject.SetActive(true);
+            dialogueUI.textSpeed = .001f;
+            return;
         }
+        dialogueUI.textSpeed = .025f;
     }
 
     private void Awake()
     {
         animator = this.GetComponent<Animator>();
         playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+        notificationManager = GameObject.FindGameObjectWithTag("Notification Manager").GetComponent<NotificationManager>();
 
         //links yarn commands to this class's methods
         dialogueRunner.AddCommandHandler("Speaker:", SetSpeaker);
@@ -55,6 +60,8 @@ public class DialogueManager : MonoBehaviour
         dialogueRunner.AddCommandHandler("SplashRight:", SetSplashR);
         dialogueRunner.AddCommandHandler("Bubble:", SetSpeechBubble);
         dialogueRunner.AddCommandHandler("Background:", SetBackground);
+        dialogueRunner.AddCommandHandler("Size:", SetTextSize);
+        dialogueRunner.AddCommandHandler("Notification:", ShowNotification);
     }
 
     private void Start()
@@ -81,7 +88,7 @@ public class DialogueManager : MonoBehaviour
 
     #endregion
 
-    #region Yarn Commands
+    #region Yarn Commands ------------------------------------------------------------------------------------------
 
     //  <<Speaker: [L or R] [speaker name]>>        Flips speech bubble to left or right side & displays speaker name.
     void SetSpeaker(string[] info)
@@ -100,7 +107,25 @@ public class DialogueManager : MonoBehaviour
                 break;
         }
 
+        if (name == "_") name = "";
+        if (name == "Madame") name = "Madame Olive";
         txt_speakerName.text = name;
+    }
+
+    void SetTextSize(string[] info)
+    {
+        string size = info[0].ToLower();
+
+        switch (size)
+        {
+            default:
+            case "small":
+                txt_speech.fontSize = 18;
+                break;
+            case "large":
+                txt_speech.fontSize = 36;
+                break;
+        }
     }
 
     //  <<Splash[L or R]: [speaker name] [state]>>  Sets left or right splash to given speaker's corresponding state. USE ADJECTIVES
@@ -164,9 +189,31 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(FadeToColor(emotionColors[emotionIndex]));
     }
 
-    #endregion
+    void ShowNotification(string[] info)
+    {
+        int notificationID = int.Parse(info[0]);
 
-    #region Events
+        switch (notificationID)
+        {
+            default:
+            case 1:
+                notificationManager.ShowNotification(NotificationManager.IconType.Note, "Olive's Rumors", "objective added to notebook");
+                break;
+            case 2:
+                notificationManager.ShowNotification(NotificationManager.IconType.Note, "Anger", "emotion added to notebook");
+                break;
+            case 3:
+                notificationManager.ShowNotification(NotificationManager.IconType.Map, "The Alleyway", "location added to world map");
+                break;
+            case 4:
+                notificationManager.ShowNotification(NotificationManager.IconType.Note, "Love", "emotion added to notebook");
+                break;
+        }
+    }
+
+    #endregion----------------
+
+    #region Events -------------------------------------------------------------------------------------------------
 
     //called by the NPCDialogue class,              Triggers enter animation & locks input.
     public void BeginDialogue()

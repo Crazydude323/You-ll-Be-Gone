@@ -1,4 +1,4 @@
-title: IntroWithTobey1
+title: Tobey1
 tags:
 colorID:
 position: 264, -191
@@ -13,20 +13,21 @@ Yer a fresh face 'round here. Word of advice, kid: best stick to the square, aig
 Thank you for the concern, but there's a reason I came here. By any chance, would you happen to know of the rumors surrounding Madame Olive?
 
 <<Speaker: R ???>>
-<<SplashLeft: HenryExcitement Special2>>
-<<SplashRight: Tobey Excited>>
+<<SplashLeft: Henry Special2>>
+<<SplashRight: Tobey>>
 Miss Madame Olive! Why of course! That slimy snake ravages 'er meals like a mutt. Always leaves a bloody mess for 'er servants to sweep up.
 
 <<Speaker: L Henry>>
-<<SplashLeft: HenryExcitement Special1>>
+<<SplashLeft: Henry Special1>>
 Interesting. Would you happen to know where these claims came from?
 
 <<Speaker: R ???>>
+<<SplashRight: Tobey Special1>>
 From 'er servants, obviously!
 No doubt, one of 'em had enough of that snake and started prattlin' off to da whole city!
 
 <<SplashLeft: HenryLove Neutral>>
-<<SplashRight: Tobey Angry1>>
+<<SplashRight: Tobey Angry>>
 Heh, suits 'er right. That pretentious ol' Olive's had it comin' fer a while.
 That pretentious, mean, nasty ol' Olive...
 
@@ -36,12 +37,165 @@ Would you have anything to do with those claims?
 
 <<Speaker: R ???>>
 <<SplashLeft: HenryAnger Special2>>
-<<SplashRight: Tobey Angry2>>
+<<SplashRight: Tobey Angry>>
 Me?! Thassa load o' poppycock, that is!
 
 <<Speaker: L Henry>>
 <<SplashLeft: HenryAnger Special3>>
 Understood... Thank you for your time, sir.
+
+<<stop>>
+===
+title: Tobey2
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Special2>>
+<<SplashRight: Tobey>>
+Could you remind me again where these rumors came from?
+
+<<Speaker: R ???>>
+<<SplashRight: Tobey Special1>>
+Like I said, it was obviously one of 'er servants!
+No doubt, one of 'em had enough of that snake and started prattlin' off to da whole city!
+
+<<SplashRight: Tobey Angry>>
+Suits 'er right. That pretentious ol' Olive's had it comin' fer a while.
+That pretentious, mean, nasty ol' Olive...
+
+<<Background: Love>>
+<<Speaker: L Henry>>
+<<Bubble: Thought>>
+<<SplashLeft: HenryLove Special1>>
+This emotion... it's different than anger.
+I wonder what it could be?
+
+[[Sadness|Tobey2.2]]
+[[Love|Tobey2.2]]
+[[Confusion|Tobey2.2]]
+
+===
+
+title: Tobey2.2
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Notification: 4>>
+<<Background: Normal>>
+<<Bubble: Speech>>
+<<Speaker: L Henry>>
+<<SplashLeft: HenryLove Special1>>
+...You're in love, aren't you?
+
+<<Speaker: R ???>>
+<<SplashLeft: HenrySurprise Special1>>
+<<SplashRight: Tobey Shocked>>
+Tch-!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySurprise Special2>>
+Despite your harsh words, it seems you actually fancy Madame Olive.
+
+<<Speaker: R ???>>
+<<SplashLeft: HenryEmbarrassment Special2>>
+<<SplashRight: Tobey Angry>>
+H-hey now, that's just, that's a whole bunch of rubbish, innit?!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Neutral>>
+None of it is rubbish, I assure you.
+
+<<Speaker: R ???>>
+S-stop tryna pull my leg, kid! Beat it! Scram! I've got nothin' else to tell ya.
+
+<<stop>>
+
+===
+title: Tobey3
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Speaker: R ???>>
+<<SplashLeft: HenryEmbarrassment Neutral>>
+<<SplashRight: Tobey Bashful>>
+A-aye, wait a sec!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Special1>>
+??
+
+<<Speaker: R ???>>
+Can you, uh, keep a secret?
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Special2>>
+Depends on the secret...
+
+<<Speaker: R ???>>
+<<SplashRight: Tobey Neutral>>
+Yeah yeah, whatever. Look, I've been watin' to catch Miss Olive's attention for a while now, but... she'd never pay attention to some street rat like me.
+
+I thought I could bring her down ta my level, y'know, make the townsfolk see her as a street rat too. Then maybe I could see her eye ta eye.
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Neutral>>
+So in order to do that...
+
+<<Speaker: R ???>>
+<<SplashRight: Tobey Bashful>>
+I started those rumors. I was thinkin', just when tha townsfolk start lookin' down on her, I could be there to dry her tears.
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Special1>>
+Hm. Well, mister...?
+
+<<Speaker: R Tobey>>
+<<SplashRight: Tobey Neutral>>
+<<SplashLeft: Henry Special1>>
+Tobey. Tobey's tha name.
+
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Neutral>>
+Well, Tobey, your plan's dumb.
+
+<<Speaker: R Tobey>>
+<<SplashLeft: HenrySurprise Neutral>>
+<<SplashRight: Tobey Shocked>>
+Eh?! You really think so?!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySurprise Special2>>
+Do you really expect someone as fierce as Madame Olive to put down her guard like that? If anything, the rumors have only made her more irritable.
+
+<<Speaker: R Tobey>>
+<<SplashLeft: HenrySadness Special2>>
+<<SplashRight: Tobey Sad>>
+Oh...
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySadness Neutral>>
+Why didn't you just confess your feelings?
+
+<<Speaker: R Tobey>>
+Like I said, there's no chance she'd listen to someone like me!
+
+<<Speaker: L Henry>>
+There's even less of a chance after this whole rumor business.
+
+<<Speaker: R Tobey>>
+<<SplashRight: Tobey Sad>>
+Aw man... Did I really blow my only shot with 'er?
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySadness Special3>>
+Sorry, mate, but I'm gonna have to tell her who did it.
 
 <<stop>>
 ===
