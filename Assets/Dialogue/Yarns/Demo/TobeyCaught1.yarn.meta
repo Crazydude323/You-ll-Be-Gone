@@ -8,13 +8,20 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  baseLanguageID: en-US
+  stringIDs:
+  - TobeyCaught1-TobeyCaught1-0
+  - TobeyCaught1-TobeyCaught1-1
+  - TobeyCaught1-TobeyCaught1-2
+  - TobeyCaught1-TobeyCaught1-3
+  - TobeyCaught1-TobeyCaught1-4
+  - TobeyCaught1-TobeyCaught1-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: 'Error on line 1 at position 1:token recognition error
     at: ''=''
 
 '
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 5d1a07cadbf1f7141bb7578f81cacd2e,
+    type: 3}
   localizations: []

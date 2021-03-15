@@ -8,13 +8,25 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  baseLanguageID: en-US
+  stringIDs:
+  - IntroWithTobey-IntroWithTobey-0
+  - IntroWithTobey-IntroWithTobey-1
+  - IntroWithTobey-IntroWithTobey-2
+  - IntroWithTobey-IntroWithTobey-3
+  - IntroWithTobey-IntroWithTobey-4
+  - IntroWithTobey-IntroWithTobey-5
+  - IntroWithTobey-IntroWithTobey-6
+  - IntroWithTobey-IntroWithTobey-7
+  - IntroWithTobey-IntroWithTobey-8
+  - IntroWithTobey-IntroWithTobey-9
+  - IntroWithTobey-IntroWithTobey-10
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: 'Error on line 1 at position 1:token recognition error
     at: ''=''
 
 '
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: a8a0ebe0760f18e4bbb5c53a5de9e1d2,
+    type: 3}
   localizations: []

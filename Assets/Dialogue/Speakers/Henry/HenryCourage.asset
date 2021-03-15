@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a64d7f838c7b94a833f33bd3e98d12, type: 3}
+  m_Name: HenryCourage
+  m_EditorClassIdentifier: 
+  speakerName: HenryCourage
+  splashNeutral: {fileID: 8017342283327754968, guid: 4027adcf883d68448bdbe1a362dfe637,
+    type: 3}
+  splashHappy: {fileID: 0}
+  splashAngry: {fileID: 0}
+  splashSad: {fileID: 0}
+  splashShocked: {fileID: -6040962899741161415, guid: 4027adcf883d68448bdbe1a362dfe637,
+    type: 3}
+  splashSmug: {fileID: 0}
+  splashBashful: {fileID: 0}
+  splashSpecial1: {fileID: 7955713985007616673, guid: 4027adcf883d68448bdbe1a362dfe637,
+    type: 3}
+  splashSpecial2: {fileID: -3660638144008647851, guid: 4027adcf883d68448bdbe1a362dfe637,
+    type: 3}
+  splashSpecial3: {fileID: -3308478533319502552, guid: 4027adcf883d68448bdbe1a362dfe637,
+    type: 3}
+  splashSpecial4: {fileID: 9144527518858862709, guid: 4027adcf883d68448bdbe1a362dfe637,
+    type: 3}

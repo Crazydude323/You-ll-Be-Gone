@@ -1717,6 +1717,21 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ef7106594f7714042988449e7bae6024, type: 3}
   placeholderSplash: {fileID: 21300000, guid: 52d60d2b288ebb24ead1e6eacc13fed6, type: 3}
   emotionSpeakers:
+  - {fileID: 11400000, guid: 731f03ab42fa4b04e936a73fe33ddf25, type: 2}
+  - {fileID: 11400000, guid: 9c3dd40b0a782984b9f6836e5c922428, type: 2}
+  - {fileID: 11400000, guid: 24e4e6d91c371fc4584a3e4679a4403a, type: 2}
+  - {fileID: 11400000, guid: 1c75af672e596c543a68568e79943223, type: 2}
+  - {fileID: 11400000, guid: 6610f4670b62fe34ea5f300ccaa06a2f, type: 2}
+  - {fileID: 11400000, guid: 42908159149997c4b880a530572a7b6e, type: 2}
+  - {fileID: 11400000, guid: 631246233bd4bde46b844b4f57abc50a, type: 2}
+  - {fileID: 11400000, guid: c8276e83316848f42b0320419c8b1a3e, type: 2}
+  - {fileID: 11400000, guid: f7a47caad0dfc614593dbe27f1a860e3, type: 2}
+  - {fileID: 11400000, guid: fc5e933a86d57514083de42aedabf2b9, type: 2}
+  - {fileID: 11400000, guid: eeaf47d9914af84498fc98edb2f35dc1, type: 2}
+  - {fileID: 11400000, guid: 47a582f49ed93f54582de8a03a268664, type: 2}
+  - {fileID: 11400000, guid: 92b7e0d2bd7e33242aab96543b9b0f75, type: 2}
+  - {fileID: 11400000, guid: 4d14993843c3df345846252b149ef6e4, type: 2}
+  - {fileID: 11400000, guid: 794733e23873ee44989aeede6093e1eb, type: 2}
   - {fileID: 11400000, guid: 1731b27cd6185154f9143fe118e3ec81, type: 2}
   emotionColors:
   - {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}

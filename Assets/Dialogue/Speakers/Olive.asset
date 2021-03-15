@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a64d7f838c7b94a833f33bd3e98d12, type: 3}
+  m_Name: Olive
+  m_EditorClassIdentifier: 
+  speakerName: Olive
+  splashNeutral: {fileID: -1998183530537135715, guid: 70bac60ab9bee3747bad0978e78cb2b8,
+    type: 3}
+  splashHappy: {fileID: 0}
+  splashAngry: {fileID: 8328304770708345278, guid: 70bac60ab9bee3747bad0978e78cb2b8,
+    type: 3}
+  splashSad: {fileID: 0}
+  splashShocked: {fileID: 4450380671263238563, guid: 70bac60ab9bee3747bad0978e78cb2b8,
+    type: 3}
+  splashSmug: {fileID: -3751267993400762858, guid: 70bac60ab9bee3747bad0978e78cb2b8,
+    type: 3}
+  splashBashful: {fileID: 0}
+  splashSpecial1: {fileID: 416232130317215535, guid: 70bac60ab9bee3747bad0978e78cb2b8,
+    type: 3}
+  splashSpecial2: {fileID: -5257190370032246429, guid: 70bac60ab9bee3747bad0978e78cb2b8,
+    type: 3}
+  splashSpecial3: {fileID: 0}
+  splashSpecial4: {fileID: 0}
