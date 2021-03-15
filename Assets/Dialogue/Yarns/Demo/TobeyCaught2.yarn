@@ -1,0 +1,83 @@
+title: TobeyCaught2
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Speaker: R ???>>
+<<SplashLeft: HenryEmbarrassment Neutral>>
+<<SplashRight: Tobey Bashful>>
+A-aye, wait a sec!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Special1>>
+?
+
+<<Speaker: R ???>>
+Can you, uh, keep a secret?
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Special2>>
+Depends on the secret...
+
+<<Speaker: R ???>>
+<<SplashRight: Tobey Neutral>>
+Yeah yeah, whatever. Look, I've been watin' to catch Miss Olive's attention for a while now, but... she'd never pay attention to some street rat like me.
+
+<<SplashLeft: HenryEmbarrassment Neutral>>
+I thought I could bring her down ta my level, y'know, make the townsfolk see her as a street rat too. Then maybe I could see her eye ta eye.
+
+<<Speaker: L Henry>>
+So in order to do that...
+
+<<Speaker: R ???>>
+<<SplashRight: Tobey Bashful>>
+I started those rumors. I was thinkin', just when tha townsfolk start lookin' down on her, I could be there to dry her tears.
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Special1>>
+Hm. Well, mister...–?
+
+<<Speaker: R Tobey>>
+<<SplashRight: Tobey Neutral>>
+<<SplashLeft: Henry Special1>>
+Tobey. Tobey's tha name.
+
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Neutral>>
+Well, Tobey, your plan's completely flawed.
+
+<<Speaker: R Tobey>>
+<<SplashLeft: HenrySurprise Neutral>>
+<<SplashRight: Tobey Shocked>>
+Eh?! You really think so?!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySurprise Special2>>
+Do you really expect someone as fierce as Madame Olive to put down her guard like that? If anything, the rumors have only made her more irritable.
+
+<<Speaker: R Tobey>>
+<<SplashLeft: HenrySadness Special2>>
+<<SplashRight: Tobey Sad1>>
+Oh...
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySadness Neutral>>
+Why didn't you just confess your feelings?
+
+<<Speaker: R Tobey>>
+Like I said, there's no chance she'd listen to someone like me!
+
+<<Speaker: L Henry>>
+There's even less of a chance after this whole rumor business.
+
+<<Speaker: R Tobey>>
+<<SplashRight: Tobey Sad2>>
+Aw man... Did I really blow my only shot with 'er?
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySadness Special3>>
+Sorry, mate, but I'm gonna have to tell her who did it.
+
+<<stop>>
+===

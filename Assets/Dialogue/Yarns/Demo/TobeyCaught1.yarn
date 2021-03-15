@@ -1,0 +1,34 @@
+title: TobeyCaught1
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryLove Special1>>
+<<SplashRight: Tobey Angry1>>
+...You're in love, aren't you?
+
+<<Speaker: R ???>>
+<<SplashLeft: HenrySurprise Special1>>
+<<SplashRight: Tobey Shocked>>
+Tch-!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenrySurprise Special2>>
+Despite your harsh words, it seems you actually fancy Madame Olive.
+
+<<Speaker: R ???>>
+<<SplashLeft: HenryEmbarrassment Special2>>
+<<SplashRight: Tobey Special2>>
+H-hey now, that's just, that's a whole bunch of rubbish, innit?!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryEmbarrassment Neutral>>
+None of it is rubbish, I assure you.
+
+<<Speaker: R ???>>
+S-stop tryna pull my leg, kid! Beat it! Scram! I've got nothin' else to tell ya.
+
+<<stop>>
+===

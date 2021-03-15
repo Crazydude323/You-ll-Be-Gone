@@ -1,0 +1,47 @@
+title: IntroWithTobey
+tags:
+colorID:
+position: 264, -191
+---
+<<Speaker: R ???>>
+<<SplashLeft: Henry Neutral>>
+<<SplashRight: Tobey Special1>>
+Yer a fresh face 'round here. Word of advice, kid: best stick to the square, aight?
+
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Special2>>
+Thank you for the concern, but there's a reason I came here. By any chance, would you happen to know of the rumors surrounding Madame Olive?
+
+<<Speaker: R ???>>
+<<SplashLeft: HenryExcitement Special2>>
+<<SplashRight: Tobey Excited>>
+Miss Madame Olive! Why of course! That slimy snake ravages 'er meals like a mutt. Always leaves a bloody mess for 'er servants to sweep up.
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryExcitement Special1>>
+Interesting. Would you happen to know where these claims came from?
+
+<<Speaker: R ???>>
+From 'er servants, obviously!
+No doubt, one of 'em had enough of that snake and started prattlin' off to da whole city!
+
+<<SplashLeft: HenryLove Neutral>>
+<<SplashRight: Tobey Angry1>>
+Heh, suits 'er right. That pretentious ol' Olive's had it comin' fer a while.
+That pretentious, mean, nasty ol' Olive...
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryLove Special2>>
+Would you have anything to do with those claims?
+
+<<Speaker: R ???>>
+<<SplashLeft: HenryAnger Special2>>
+<<SplashRight: Tobey Angry2>>
+Me?! Thassa load o' poppycock, that is!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryAnger Special3>>
+Understood... Thank you for your time, sir.
+
+<<stop>>
+===

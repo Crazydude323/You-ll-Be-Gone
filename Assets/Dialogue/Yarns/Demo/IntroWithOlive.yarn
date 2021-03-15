@@ -1,0 +1,110 @@
+title: IntroWithOlive
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Bubble: Speech>>
+<<Background: normal>>
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Neutral>>
+<<SplashRight:Olive Neutral>>
+Ah! You must be Olive. The snake?
+
+<<Background: Anger>>
+<<Speaker: R GwaGwa>>
+<<SplashLeft: HenryAnger Shocked>>
+<<SplashRight: Olive Special1>>
+*WHACK*
+
+<<Speaker: L Henry>>
+Ow! Why'd you hit me?
+
+<<Speaker: R Olive>>
+<<SplashRight: Olive Angry2>>
+"Olive"?! The "snake"??!!
+<<Speaker: R Madame Olive>>
+<<SplashRight: Olive Angry1>>
+It's Madame Olive to you! And I'm more than just, "a snake." 
+
+<<SplashRight: Olive Smug>>
+<<SplashLeft: HenryPride Shocked>>
+<<Background: Pride>>
+I'll have you know that I come from a long line of boas of the highest pedigree. It appears my ancestry is beyond your comprehension, though.
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryPride Special3>>
+Ah... my apologies, Madame Olive.
+
+<<Speaker: R Madame Olive>>
+<<SplashRight: Olive Neutral>>
+I refuse your apology. Now be gone; I have some Chardonnay to attend to.
+
+<<stop>>
+
+===
+title: 
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Speaker: L Henry>>
+<<SplashRight: Olive Neutral>>
+<<SplashLeft: Henry Neutral>>
+Excuse me... Madame Olive?
+
+<<Speaker: R Madame Olive>>
+<<SplashRight: Olive Angry1>>
+<<SplashLeft: HenryAnger Neutral>>
+Haven't I already told you to scram?
+
+<<Speaker: L Henry>>
+<<SplashRight: Olive Angry1>>
+<<SplashLeft: HenryAnger Special2>>
+Ma'am, I'm here on behalf of Jeremiah Boone. I'm the private investigator you hired.
+
+<<Speaker: R Madame Olive>>
+<<SplashRight: Olive Disgusted>>
+<<SplashLeft: HenryDisgust Special2>>
+Oh. Really...? For someone under Mr. Boone's tutilage, I expected something more... professional. 
+But I suppose you must have some worth if Boone trained you.
+
+<<SplashRight: Olive Angry1>>
+<<SplashLeft: HenryAnger Neutral>>
+Here's the deal, investigator. Some rotten scoundrel has been spreading gossip and rumors pertaining to my eating habits.
+It's dreadful, I tell you. They say I down rodents like a savage, with no poise or dignity!
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryAnger Special1>>
+Interesting. Would those rumors happen to be true?
+
+<<Speaker: R Madame Olive>>
+<<SplashLeft: HenryAnger Special1>>
+<<SplashRight: Olive Angry2>>
+MOST CERTAINLY NOT!
+
+<<SplashRight: Olive Angry1>>
+A lady of my stature would never behave in such a brutish manner.
+
+<<Speaker: L Henry>>
+<<SplashLeft: HenryAnger Special2>>
+<<SplashRight: Olive Angry1>>
+But you are a snake, aren't you?
+
+<<Speaker: R Madame Olive>>
+<<SplashRight: Olive Angry2>>
+I assure you, my anguine heritage has no precedence over my behaviour!
+
+<<SplashRight: Olive Neutral>>
+<<SplashLeft: Henry Neutral>>
+Get to the bottom of this, immediately. Find out who started these rumors, and report to me at once.
+
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Special3>>
+Yes, ma'am.
+
+//Notification
+
+<<stop>>
+===

@@ -1,0 +1,29 @@
+title: DemoNPC
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Speaker: R NPC>>
+<<SplashRight: NPC Neutral>>
+<<SplashLeft: Henry Neutral>>
+The Olive Snake rumors? Huh... think I overheard summat like that when I passed the alleyway.
+
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Special1>>
+The alleyway?
+
+<<Speaker: R NPC>>
+Yeah, the real crummy-lookin' one. It's over there, just west o' the fountain.
+
+//Notification
+
+<<Speaker: L Henry>>
+<<SplashLeft: Henry Special3>>
+Thank you, sir.
+
+<<Speaker: R NPC>>
+Don' mention it.
+
+<<stop>>
+===
