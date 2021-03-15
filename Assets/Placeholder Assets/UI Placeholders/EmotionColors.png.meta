@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: ef51cd3a3f89cc64588044024daad90e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1791430522958947879
+    second: EmotionColors_0
+  - first:
+      213: 3410785430216728972
+    second: EmotionColors_1
+  - first:
+      213: -1154045140876476131
+    second: EmotionColors_2
+  - first:
+      213: 4296765370792928896
+    second: EmotionColors_3
+  - first:
+      213: 138157418228668882
+    second: EmotionColors_4
+  - first:
+      213: -2494387723589132381
+    second: EmotionColors_5
+  - first:
+      213: -7757302798920877181
+    second: EmotionColors_6
+  - first:
+      213: -7938915060449981482
+    second: EmotionColors_7
+  - first:
+      213: 2103860822670382517
+    second: EmotionColors_8
+  - first:
+      213: -7829633791162446753
+    second: EmotionColors_9
+  - first:
+      213: 2414487963426504747
+    second: EmotionColors_10
+  - first:
+      213: -6191652592057679205
+    second: EmotionColors_11
+  - first:
+      213: -5603687729850383766
+    second: EmotionColors_12
+  - first:
+      213: -3693767857866468251
+    second: EmotionColors_13
+  - first:
+      213: -459508206051144579
+    second: EmotionColors_14
+  - first:
+      213: 5157504640375576657
+    second: EmotionColors_15
+  - first:
+      213: 9142685907605302611
+    second: EmotionColors_16
+  - first:
+      213: -5382829032410837521
+    second: EmotionColors_17
+  - first:
+      213: 6948530537862521721
+    second: EmotionColors_18
+  - first:
+      213: -9085829294407165927
+    second: EmotionColors_19
+  - first:
+      213: 8371267451767857212
+    second: EmotionColors_20
+  - first:
+      213: 1556074336528570340
+    second: EmotionColors_21
+  - first:
+      213: 5826895930137303359
+    second: EmotionColors_22
+  - first:
+      213: -5080326418470034325
+    second: EmotionColors_23
+  - first:
+      213: -3508531878028804765
+    second: EmotionColors_24
+  - first:
+      213: 8472478629676144500
+    second: EmotionColors_25
+  - first:
+      213: 4575601833870635613
+    second: EmotionColors_26
+  - first:
+      213: 682049331932030974
+    second: EmotionColors_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EmotionColors_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 645
+        width: 149
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d95d374e6f8327e0800000000000000
+      internalID: -1791430522958947879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 645
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c816525174b855f20800000000000000
+      internalID: 3410785430216728972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 645
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11ca4b0f020cffe0800000000000000
+      internalID: -1154045140876476131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_3
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 645
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086ef49e65d21ab30800000000000000
+      internalID: 4296765370792928896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 645
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9da9c9075dae100800000000000000
+      internalID: 138157418228668882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_5
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 645
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afdf5bc497226dd0800000000000000
+      internalID: -2494387723589132381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_6
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 645
+        width: 151
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7d2f4436885490800000000000000
+      internalID: -7757302798920877181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 457
+        width: 149
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db41ef80de43d190800000000000000
+      internalID: -7938915060449981482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 457
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b51120854a623d10800000000000000
+      internalID: 2103860822670382517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 457
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c0e54dc8d875390800000000000000
+      internalID: -7829633791162446753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_10
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 457
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b204e7e920cf18120800000000000000
+      internalID: 2414487963426504747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_11
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 457
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9286c5b5c4d21aa0800000000000000
+      internalID: -6191652592057679205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_12
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 457
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a628d0603b3bb32b0800000000000000
+      internalID: -5603687729850383766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_13
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 457
+        width: 151
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5641d1524b91dbcc0800000000000000
+      internalID: -3693767857866468251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 210
+        width: 149
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cc1fe98bf7f99f0800000000000000
+      internalID: -459508206051144579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 210
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158d3011523239740800000000000000
+      internalID: 5157504640375576657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_16
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 210
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35da8c7946851ee70800000000000000
+      internalID: 9142685907605302611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 210
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed0e74b3895c45b0800000000000000
+      internalID: -5382829032410837521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 210
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973ef3495b32e6060800000000000000
+      internalID: 6948530537862521721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_19
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 210
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918d5014566a8e180800000000000000
+      internalID: -9085829294407165927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_20
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 210
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30a96ef467bc2470800000000000000
+      internalID: 8371267451767857212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 149
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e713e85d59489510800000000000000
+      internalID: 1556074336528570340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 22
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39d00be9fa4dd050800000000000000
+      internalID: 5826895930137303359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_23
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 22
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64af040a0e0f79b0800000000000000
+      internalID: -5080326418470034325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_24
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 22
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d75fe88d03f4fc0800000000000000
+      internalID: -3508531878028804765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_25
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 22
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4775fe0bc6a449570800000000000000
+      internalID: 8472478629676144500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_26
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 22
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d523c7510adcf7f30800000000000000
+      internalID: 4575601833870635613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmotionColors_27
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 22
+        width: 150
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7e915f040277900800000000000000
+      internalID: 682049331932030974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
