@@ -11,7 +11,7 @@ public class EmotionEnabled : MonoBehaviour
     [SerializeField] GameObject loveLabel;
     [SerializeField] GameObject loveLabelUnknown;
 
-    void Start() {
+    void Update() {
         if (StoryProgress.emotionAnger) {
             angerLabel.SetActive(true);
             angerLabelUnknown.SetActive(false);

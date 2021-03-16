@@ -135,7 +135,7 @@ Sorry, ma'am, but I haven't figured that out yet.
 <<SplashRight: Olive Angry>>
 <<SplashLeft: HenryAnger>>
 <<Size: Large>>
-Then BE GONE, THOT!
+Then BE GONE!
 
 <<Size: Small>>
 <<SplashLeft: HenryAnger Special1>>
@@ -143,7 +143,7 @@ Then BE GONE, THOT!
 <<Background: Anger>>
 <<Speaker: L Henry>>
 <<Bubble: Thought>>
-This emotion I sense... HM what be it?
+This emotion I sense...  What is it?
 
 [[Happiness|Olive3.2]]
 [[Worry|Olive3.2]]

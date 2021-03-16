@@ -2833,7 +2833,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2956,7 +2956,7 @@ PrefabInstance:
     - target: {fileID: 4669613809646150418, guid: 279138d1429eb9147bae845bd3603ec3,
         type: 3}
       propertyPath: sceneTitle
-      value: Birb'n on the Rocks
+      value: The Crow Bar
       objectReference: {fileID: 0}
     - target: {fileID: 4669613809646150429, guid: 279138d1429eb9147bae845bd3603ec3,
         type: 3}
@@ -14468,7 +14468,7 @@ PrefabInstance:
     - target: {fileID: 6918072242734071746, guid: a110d8e5880253c4c9d39f2e0072f45e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.475
+      value: -10.87
       objectReference: {fileID: 0}
     - target: {fileID: 6918072242734071746, guid: a110d8e5880253c4c9d39f2e0072f45e,
         type: 3}
@@ -14551,13 +14551,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8065356432708502127, guid: fd63f03b70bc64546a31e3168b73766e,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065356432708502127, guid: fd63f03b70bc64546a31e3168b73766e,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.233
+      value: 3.19
       objectReference: {fileID: 0}
     - target: {fileID: 8065356432708502127, guid: fd63f03b70bc64546a31e3168b73766e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.975
+      value: -1.66
       objectReference: {fileID: 0}
     - target: {fileID: 8065356432708502127, guid: fd63f03b70bc64546a31e3168b73766e,
         type: 3}

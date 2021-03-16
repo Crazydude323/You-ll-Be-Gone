@@ -26,7 +26,7 @@ Interesting. Would you happen to know where these claims came from?
 From 'er servants, obviously!
 No doubt, one of 'em had enough of that snake and started prattlin' off to da whole city!
 
-<<SplashLeft: HenryLove Neutral>>
+<<SplashLeft: HenryLove Special1>>
 <<SplashRight: Tobey Angry>>
 Heh, suits 'er right. That pretentious ol' Olive's had it comin' fer a while.
 That pretentious, mean, nasty ol' Olive...
@@ -62,6 +62,7 @@ Could you remind me again where these rumors came from?
 Like I said, it was obviously one of 'er servants!
 No doubt, one of 'em had enough of that snake and started prattlin' off to da whole city!
 
+<<SplashLeft: HenryLove Special2>>
 <<SplashRight: Tobey Angry>>
 Suits 'er right. That pretentious ol' Olive's had it comin' fer a while.
 That pretentious, mean, nasty ol' Olive...

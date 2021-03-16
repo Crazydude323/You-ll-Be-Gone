@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SS_Alleyway.unity
     guid: d6cbf0eabf011604693bea5664bb01c3
+  - enabled: 1
+    path: Assets/Scenes/DemoEnd.unity
+    guid: 911e3501265e2c349babc86ddea8a95d
   m_configObjects: {}
