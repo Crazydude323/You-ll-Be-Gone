@@ -224,6 +224,7 @@ public class DialogueManager : MonoBehaviour
         isDialogueRunning = true;
         animator.SetTrigger("Begin");
         playerMovement.LockInput();
+        this.GetComponent<AudioSource>().Play();
     }
 
     //called by the dialogue runner,                Triggers exit animation.

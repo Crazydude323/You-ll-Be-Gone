@@ -25,6 +25,8 @@ public class NotificationManager : MonoBehaviour
 
     public void ShowNotification(IconType iconType, string header, string message)
     {
+        this.GetComponent<AudioSource>().Play();
+
         switch (iconType)
         {
             default:
