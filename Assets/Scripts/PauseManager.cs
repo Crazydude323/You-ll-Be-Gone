@@ -7,14 +7,20 @@ public class PauseManager : MonoBehaviour
 
     [SerializeField] GameObject Notebook;
 
-private void Update() {
-    if (Input.GetButtonDown("Cancel")) {
-        Notebook.SetActive(true);
+    void Start()
+    {
+        Notebook.SetActive(false);
     }
-}
 
-public void CloseDialogue() {
-    Notebook.SetActive(false);
-}
+    private void Update() {
+        if (Input.GetButtonDown("Cancel")) {
+            if(!Notebook.activeSelf) Notebook.SetActive(true);
+            else Notebook.SetActive(false);
+        }
+    }
+
+    public void CloseDialogue() {
+        Notebook.SetActive(false);
+    }
     
 }
