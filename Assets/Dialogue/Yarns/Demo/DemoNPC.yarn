@@ -1,4 +1,4 @@
-title: DemoNPC
+title: NPC1
 tags:
 colorID:
 position: 264, -191
@@ -16,7 +16,7 @@ The alleyway?
 <<Speaker: R NPC>>
 Yeah, the real crummy-lookin' one. It's over there, just west o' the fountain.
 
-//Notification
+<<Notification: 3>>
 
 <<Speaker: L Henry>>
 <<SplashLeft: Henry Special3>>

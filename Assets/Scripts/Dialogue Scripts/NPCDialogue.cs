@@ -10,6 +10,7 @@ public class NPCDialogue : MonoBehaviour
     [SerializeField] YarnProgram yarnDialogue;
     [SerializeField] SpeakerData speakerData;
     [SerializeField] int maxNodeSuffix = 1;
+    [SerializeField] bool shouldIncrementSuffix;
     DialogueManager dialogueManager;
     int nodeSuffix = 1;
 
@@ -70,8 +71,9 @@ public class NPCDialogue : MonoBehaviour
         if (collision.gameObject == player)
         {
             isClose = true;
-            animator.SetBool("isClose", isClose);
             chatBubble.SetActive(true);
+            if (animator == null) return;
+            animator.SetBool("isClose", isClose);
         }
     }
 
@@ -81,7 +83,7 @@ public class NPCDialogue : MonoBehaviour
         if (collision.gameObject == player)
         {
             isClose = false;
-            animator.SetBool("isClose", isClose);
+            if (animator != null) animator.SetBool("isClose", isClose);
             chatBubble.SetActive(false);
             if (!shouldRevertDirection) return;
             npc.transform.localScale = defaultScale;
@@ -100,8 +102,18 @@ public class NPCDialogue : MonoBehaviour
     private void StartDialogue()
     {
         //START DIALOGUE
-        dialogueManager.BeginDialogue();
-        dialogueManager.dialogueRunner.StartDialogue(yarnStartNode + nodeSuffix);
-        if (nodeSuffix < maxNodeSuffix) nodeSuffix++;
+        if (shouldIncrementSuffix)
+        {
+            if (nodeSuffix > maxNodeSuffix) nodeSuffix = maxNodeSuffix;
+            dialogueManager.BeginDialogue();
+            dialogueManager.dialogueRunner.StartDialogue(yarnStartNode + nodeSuffix);
+            if (nodeSuffix < maxNodeSuffix) nodeSuffix++;
+        } else
+        {
+            dialogueManager.BeginDialogue();
+            dialogueManager.dialogueRunner.StartDialogue(yarnStartNode + "1");
+        }
+            
+        
     }
 }

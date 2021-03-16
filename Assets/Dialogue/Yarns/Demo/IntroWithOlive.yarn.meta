@@ -8,13 +8,36 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  baseLanguageID: en-US
+  stringIDs:
+  - IntroWithOlive-IntroWithOlive-0
+  - IntroWithOlive-IntroWithOlive-1
+  - IntroWithOlive-IntroWithOlive-2
+  - IntroWithOlive-IntroWithOlive-3
+  - IntroWithOlive-IntroWithOlive-4
+  - IntroWithOlive-IntroWithOlive-5
+  - IntroWithOlive-IntroWithOlive-6
+  - IntroWithOlive-IntroWithOlive-7
+  - IntroWithOlive--8
+  - IntroWithOlive--9
+  - IntroWithOlive--10
+  - IntroWithOlive--11
+  - IntroWithOlive--12
+  - IntroWithOlive--13
+  - IntroWithOlive--14
+  - IntroWithOlive--15
+  - IntroWithOlive--16
+  - IntroWithOlive--17
+  - IntroWithOlive--18
+  - IntroWithOlive--19
+  - IntroWithOlive--20
+  - IntroWithOlive--21
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: 'Error on line 1 at position 1:token recognition error
     at: ''=''
 
 '
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 9ac9c4c624d67224fbb4630b0a9d21c9,
+    type: 3}
   localizations: []

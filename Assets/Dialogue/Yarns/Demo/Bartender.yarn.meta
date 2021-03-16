@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 327fda3e74eb60b439819759ca74abe0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - DemoNPC-DemoNPC-0
+  - DemoNPC-DemoNPC-1
+  - DemoNPC-DemoNPC-2
+  - DemoNPC-DemoNPC-3
+  - DemoNPC-DemoNPC-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 'Error on line 1 at position 1:token recognition error
+    at: ''=''
+
+'
+  baseLanguage: {fileID: 7128917941130120860, guid: 946194b262586cd4697e7069be3a66f8,
+    type: 3}
+  localizations: []

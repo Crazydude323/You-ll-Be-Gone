@@ -7,6 +7,7 @@ TagManager:
   - Music
   - DialogueManager
   - TransitionManager
+  - Notification Manager
   layers:
   - Default
   - TransparentFX

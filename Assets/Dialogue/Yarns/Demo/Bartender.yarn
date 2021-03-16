@@ -1,0 +1,18 @@
+title: Bartender1
+tags:
+colorID:
+position: 264, -191
+---
+
+<<Speaker: R Bartender>>
+<<SplashRight: NPC Neutral>>
+<<SplashLeft: Henry Neutral>>
+Hello I am bartender.
+
+<<Speaker: L Henry>>
+<<SplashRight: NPC Neutral>>
+<<SplashLeft: Henry Special3>>
+...
+
+<<stop>>
+===

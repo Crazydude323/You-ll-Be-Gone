@@ -1,4 +1,4 @@
-title: IntroWithBoon
+title: JeremiahBar1
 tags:
 colorID:
 position: 264, -191
@@ -7,8 +7,9 @@ position: 264, -191
 <<Background: normal>>
 <<Speaker: R Jeremiah>>
 <<SplashLeft: Henry Neutral>>
-<<SplashRight:Jeremiah Neutral>>
+<<SplashRight: Jeremiah Neutral>>
 Here we are. If I'm not mistaken, this is where your client asked you to meet her.
+<<SplashRight: Jeremiah Happy>>
 According to her bio, Miss Olive is a snake. Go ahead, take a look around the bar. See if you can track her down.
 
 <<Speaker: L Henry>>

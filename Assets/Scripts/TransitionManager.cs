@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class TransitionManager : MonoBehaviour
 {
     [Header("Components")]
+    [SerializeField] TextMeshProUGUI txt_sceneTitle;
     private Animator animator;
     private PlayerMovement playerMovement;
 
     [Header("Variables")]
-    public bool fadeInOnStart = true;
+    [SerializeField] string sceneTitle;
+    [SerializeField] bool fadeInOnStart = true;
     private string sceneToLoad;
 
     private void Awake()
@@ -23,6 +27,7 @@ public class TransitionManager : MonoBehaviour
     private void Start()
     {
         if (fadeInOnStart) animator.SetTrigger("FadeIn");
+        txt_sceneTitle.text = sceneTitle;
     }
 
     // fade to black
