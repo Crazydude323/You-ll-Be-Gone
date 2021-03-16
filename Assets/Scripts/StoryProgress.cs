@@ -4,10 +4,10 @@ using UnityEngine;
 
 public static class StoryProgress
 {
-    public static bool mapAlleyHidden = true;
+    public static bool mapAlley;
 
-    public static bool emotionLoveHidden = true;
+    public static bool emotionLove;
 
-    public static bool emotionAngerHidden = true;
+    public static bool emotionAnger;
 
 }

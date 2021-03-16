@@ -9,7 +9,7 @@ public class MapEnabled : MonoBehaviour
     [SerializeField] GameObject alley;
 
     void Start() {
-        alley.SetActive(!StoryProgress.mapAlleyHidden);
+        alley.SetActive(StoryProgress.mapAlley);
     }
 
 }

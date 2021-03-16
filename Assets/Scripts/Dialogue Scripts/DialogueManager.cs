@@ -201,12 +201,15 @@ public class DialogueManager : MonoBehaviour
                 break;
             case 2:
                 notificationManager.ShowNotification(NotificationManager.IconType.Note, "Anger", "emotion added to notebook");
+                StoryProgress.emotionAnger = true;
                 break;
             case 3:
                 notificationManager.ShowNotification(NotificationManager.IconType.Map, "The Alleyway", "location added to world map");
+                StoryProgress.mapAlley = true;
                 break;
             case 4:
                 notificationManager.ShowNotification(NotificationManager.IconType.Note, "Love", "emotion added to notebook");
+                StoryProgress.emotionLove = true;
                 break;
         }
     }

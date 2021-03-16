@@ -11,8 +11,8 @@ public class EmotionEnabled : MonoBehaviour
     [SerializeField] GameObject loveLabel;
     [SerializeField] GameObject loveLabelUnknown;
 
-    void Update() {
-        if (StoryProgress.emotionAngerHidden == false) {
+    void Start() {
+        if (StoryProgress.emotionAnger) {
             angerLabel.SetActive(true);
             angerLabelUnknown.SetActive(false);
         } else {
@@ -20,7 +20,7 @@ public class EmotionEnabled : MonoBehaviour
             angerLabelUnknown.SetActive(true);
         }
 
-        if (StoryProgress.emotionLoveHidden == false) {
+        if (StoryProgress.emotionLove) {
             loveLabel.SetActive(true);
             loveLabelUnknown.SetActive(false);
         } else {
